@@ -1,0 +1,40 @@
+<!DOCTYOE html>
+<html>
+	<head>
+		<title>The Vampire Diaries</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	
+	<body>
+		<header id="topbarbg"></header>
+		
+	<header id="topbar">
+		<nav class="navigation">
+			<a href="home.php">Home</a>
+			<a href="serie.html">Série</a>  
+			<a href="livro.html">Livros</a> 
+			<a href="personagens.html">Personagens</a>
+			<a href="galeria.html">Galeria</a>
+			<a href="acesso.html">Acessar</a>
+         </nav>
+	</header>
+
+		
+		<article id="entriescrud">
+			<article class="postscrud">
+			<form action="crud.php" method="post">
+				<fieldset>
+				<h3>ADMINISTRAÇÃO</h3>
+				<input type="radio" name="tipoCRUD" value="C" checked/><b>Create</b><br/>
+				<input type="radio" name="tipoCRUD" value="R"/><b>Read</b><br/>
+				<input type="radio" name="tipoCRUD" value="U"/><b>Update</b><br/>
+				<input type="radio" name="tipoCRUD" value="D"/><b>Delete</b><br/>
+				<br><center><input type="submit" value="START"/></center>
+			</form>
+			</fieldset>
+			</article>
+		</article>
+		
+	</body>
+</html>
